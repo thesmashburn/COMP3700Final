@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+import java.io.*;
 
 /**
  *
  * @author thesmashburn
  */
-public class User {
+public class User implements Serializable {
     private String username;
     private String password;
     private String profilepic;
